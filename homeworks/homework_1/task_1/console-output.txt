@@ -1,0 +1,67 @@
+Microsoft Windows [Version 10.0.19041.572]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\stepa>scala
+Welcome to Scala 2.12.10 (Java HotSpot(TM) 64-Bit Server VM, Java 11.0.9).
+Type in expressions for evaluation. Or try :help.
+
+scala> val greet_stepan = "Hello, Scala! This is Stepan"
+greet_stepan: String = Hello, Scala! This is Stepan
+
+scala> println(greet_stepan)
+Hello, Scala! This is Stepan
+
+scala> val stepan = "Stepan"
+stepan: String = Stepan
+
+scala> var english = "Hello"
+english: String = Hello
+
+scala> var deutche = "Guten tag"
+deutche: String = Guten tag
+
+scala> var some = "Halo"
+some: String = Halo
+
+scala> var now_greet = english
+now_greet: String = Hello
+
+scala> println(s"$now_greet Scala! this is $stepan")
+Hello Scala! this is Stepan
+
+scala>
+
+scala> now_greet = deutche
+now_greet: String = Guten tag
+
+scala> println(s"$now_greet Scala! this is $stepan")
+Guten tag Scala! this is Stepan
+
+scala> now_greet = some
+now_greet: String = Halo
+
+scala> println(s"$now_greet Scala! this is $stepan")
+Halo Scala! this is Stepan
+
+scala> now_greet = english
+now_greet: String = Hello
+
+scala> var stepan_reverse = stepan.reverse
+stepan_reverse: String = napetS
+
+scala> println(s"$now_greet Scala! this is $stepan_reverse")
+Hello Scala! this is napetS
+
+scala> now_greet = deutche
+now_greet: String = Guten tag
+
+scala> println(s"$now_greet Scala! this is $stepan_reverse")
+Guten tag Scala! this is napetS
+
+scala> now_greet = some
+now_greet: String = Halo
+
+scala> println(s"$now_greet Scala! this is $stepan_reverse")
+Halo Scala! this is napetS
+
+scala>
